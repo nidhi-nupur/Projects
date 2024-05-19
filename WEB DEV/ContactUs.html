@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Nidhi Nupur">
+        <meta name="description" content="This is my first Project of Web Development that I create with html5.">
+        <title>Contact Starries</title>
+        <link rel="icon" href="SBCafe.png" type="image/x-icon">
+        <link rel="stylesheet" href="main.css" type="text/css">
+    </head>
+
+    <body>
+        <article id="contact">
+            <header>
+                <h1>Contact Us</h1>
+
+                <nav aria-label="secondary-navigation">
+                    <ul>
+                        <li>
+                            <a href="StarryBiteCafe.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="StarryHours.html">Store Hours</a>
+                        </li>
+                    </ul>
+                </nav>
+                <figure>
+                    <img src="img/Contact.jpeg" alt="Enjoyourtreat" title="You'll Love here." width="500" height="500">
+                    <figcaption>You will love Starry.</figcaption>
+                </figure>
+            </header>
+        </article>
+        <br>
+        <main>
+            <article id="info">
+                <h2>Our Contant Form</h2>
+
+                <form action="https://httpbin.org/get" method="get">
+                    <fieldset>
+                        <legend>Send Us A Message</legend>
+                        <p>
+                            <label for="yourname">Name: </label>
+                            <input type="text" name="yourname" id="yourname" placeholder="Your Name" autocomplete="on" required>
+                        </p>
+                        <p>
+                            <label for="email">Email: </label>
+                            <input type="text" name="email" id="email" placeholder="Your Email" autocomplete="on" required>
+                        </p>
+                        <p>
+                            <label for="message">Your Message: </label>
+                            <br>
+                            <textarea name="message" id="message" cols="100" rows="5" placeholder="Type your message here"></textarea>
+                        </p>
+                    </fieldset>
+                    <button type="submit">Send</button>
+                    <button type="reset">Reset</button>
+                </form>
+            </article>
+            <br>
+            <section>
+                <h2>Our Location</h2>
+
+                <address>Starry Bites Café is located at 696 University Ave, Rochester, NY 14607 in the Neighborhood of the Arts.<br> MO. 234-555-0000 <br> Phone:<a href="tel:+234-555-0000">234-555-0000</a></address>
+            </section>
+            <p>
+                <a href="#">Back to Top</a>
+            </p>
+        </main>
+        <hr>
+        <footer>
+            <p>Copyright &copy; Starry Bite Café</p>
+        </footer>
+    </body>
+</html>
